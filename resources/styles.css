@@ -1,0 +1,215 @@
+.clockFace {
+  viewport-fill: #34495E;
+}
+.svg{
+  overflow: visible;
+}
+
+#myLabel {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+#weatherData{
+  display: inline;
+}
+
+#hours1{
+  text-anchor: middle;
+  x: 10%;
+  y: 48%;
+  fill: #F1C40F;
+}
+#hours2{
+  text-anchor: middle;
+  x: 10%+50;
+  y: 48%;
+  fill: #E67E22;
+}
+#mins1{
+  text-anchor: middle;
+  x: 10%+160;
+  y: 48%;
+  fill: #F1C40F;
+}
+#mins2{
+  text-anchor: middle;
+  x: 10%+210;
+  y: 48%;
+  fill: #E67E22;
+}
+#seperator{
+  text-anchor: middle;
+  x: 10%+110;
+  y: 45%;
+  fill: white;
+}
+
+#metric1{
+  text-length: 32;
+  font-size: 20;
+  x: 57%;
+  y: 12%;
+  fill: white;
+}
+/* Temperature and Weather */
+#metric2{
+  text-length: 32;
+  font-size: 20;
+  text-anchor: end;
+  x: 23%;
+  y: 80%;
+  fill: white;
+}
+
+#weatherDesc{
+  text-length: 32;
+  font-size: 15;
+  text-anchor: end;
+  x: 23%;
+  y: 85%;
+  fill: white;
+}
+
+#weatherDesc2{
+  text-length: 32;
+  font-size: 15;
+  text-anchor: end;
+  x: 23%;
+  y: 90%;
+  fill: white;
+}
+
+#weatherDesc3{
+  text-length: 32;
+  font-size: 15;
+  text-anchor: end;
+  x: 23%;
+  y: 95%;
+  fill: white;
+}
+
+#location{
+  text-length: 32;
+  font-size: 15;
+  x: 25%;
+  y: 90%;
+  fill: white; 
+}
+.chart{
+  x: 25%;
+  y: 35%;
+}
+
+#metric3 {
+  fill: #E74C3C; /* changes the background */
+  cursor: pointer;
+}
+
+#metric3_bg{
+  fill: #E74C3C; /* changes the background */
+  cursor: pointer;
+  opacity: 0.3;
+}
+#metric3Data{
+  font-size: 17;
+  text-length: 20;
+  fill: white;
+}
+#metric3Percent{
+  font-size: 12;
+  text-length: 30;
+  fill: white;
+  text-anchor: end;
+}
+#metric4 {
+  fill: #2980B9; /* changes the background */
+  cursor: pointer;
+}
+#metric4_bg{
+  fill: #2980B9; /* changes the background */
+  cursor: pointer;
+  opacity: 0.3;
+}
+#metric4Data{
+  font-size: 17;
+  text-length: 20;
+  fill: white;
+}
+#metric4Percent{
+  font-size: 12;
+  text-length: 30;
+  fill: white;
+  text-anchor: end;
+}
+#metric5 {
+  fill: #8E44AD; /* changes the background */
+  cursor: pointer;
+}
+#metric5_bg{
+  fill: #8E44AD; /* changes the background */
+  cursor: pointer;
+  opacity: 0.3;
+}
+#metric5Data{
+  font-size: 17;
+  text-length: 20;
+  fill: white;
+}
+#metric5Percent{
+  font-size: 12;
+  text-length: 30;
+  fill: white;
+  text-anchor: end;  
+}
+#metric6 {
+  fill: #FF7675; /* changes the background */
+  cursor: pointer;
+}
+#metric6_bg{
+  fill: #FF7675; /* changes the background */
+  cursor: pointer;
+  opacity: 0.3;
+}
+#metric6Data{
+  font-size: 17;
+  text-length: 20;
+  fill: white;
+}
+#metric6Percent{
+  font-size: 12;
+  text-length: 30;
+  fill: white;
+  text-anchor: end;
+}
+#colorChangeButton{
+  x:0;
+  y:0;
+  opacity: 0;
+}
+
+#weatherHRChangeButton{
+  x: -25;
+  y: 228;
+  opacity: 0;
+}
+/* HeartBeat Data and Heart Icon */
+#metric7{
+  display:none;
+  text-length: 32;
+  font-size: 25;
+  x: 14%;
+  y: 85%;
+  fill: white;
+}
+#heartIcon{
+  x: 5%;
+  y: 79%;
+  fill: white;
+  display:none;
+}

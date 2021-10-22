@@ -1,0 +1,91 @@
+<svg id = "clockFace">
+  <svg class="background">
+  <image id="bgImage" />
+  <!--   <text id="myLabel" /> -->
+  <!--   <text id = "hours1" /> <text id = "hours2" /> <text id="seperator" /> <text id = "mins1" /> <text id = "mins2" /> -->
+    <svg class="normal">
+      <svg class = "data-container">
+        <g class="buttonArea">
+          <use id="colorChangeButton" href="#icon-button" class="medium-button application-fill plus-button" />
+        </g>
+      </svg>
+      <svg class = "data-container">
+        <text id = "metric1" class="activity-style" /> 
+      </svg>
+<!--Clock        -->
+      <svg class = "dataContainer"> 
+        <g class = "metric0">
+          <use href="#fitfont" id="hours1">
+                <use href="#fitfont-char"/>
+          </use>
+          <use href="#fitfont" id="hours2">
+                <use href="#fitfont-char"/>
+          </use>
+          <use href="#fitfont" id="seperator">
+                <use href="#fitfont-char"/>
+          </use>
+          <use href="#fitfont" id="mins1">
+                <use href="#fitfont-char"/>
+          </use>
+          <use href="#fitfont" id="mins2">
+                <use href="#fitfont-char"/>
+          </use>
+        </g>
+      </svg>
+ 
+      <svg class = "data-container">
+        <svg class = "data-container" id = "weatherData">
+        <!-- Temperature and Weather Description          -->
+          <text id = "metric2" class="activityStyle" /> <text id ="degree"></text>  
+          <text id = "weatherDesc" />
+          <text id = "weatherDesc2" />
+          <text id = "weatherDesc3" />
+          <text id = "location" />
+        </svg>
+        <svg id = "heartRateData">
+          <image href="images/heart_rate_36px.png" width = "28" height = "23" id="heartIcon" fill="white" />
+          <text id = "metric7" class = "activityStyle"></text>
+        </svg>
+        <g class="buttonArea">
+              <use id="weatherHRChangeButton" href="#icon-button" class="extra-large-button application-fill plus-button" />
+        </g>
+      </svg>
+      <svg class = "stats-container">
+        <svg class = "chart" width= "120" height="150">
+          <g class = "stepBar">
+            <image href="images/steps_36px.png" x="24%" y="55%" width = "28" height = "23" fill = "white"/>      
+            <rect width = "150" height = "25" x="50%" y="55%" id = "metric3_bg" opacity="0.3"></rect>
+            <rect width = "0" height = "25" x="50%" y="55%" id = "metric3"></rect>
+            <text id="metric3Data" x="51%" y="66%"> </text>
+            <text id="metric3Percent" x="51%+145" y="66%"> </text>
+          </g>
+          <g class = "aZMBar">
+            <image href="images/azm_36px.png" x="24%" y="55%+30" width = "28" height = "23" fill = "white"/>
+            <rect width="150" height = "25" x="50%" y="55%+30" id = "metric4_bg" opacity="0.3"></rect>
+            <rect width="40"  height = "25" x="50%" y="55%+30" id = "metric4"></rect>
+            <text id="metric4Data" x="51%" y="66%+30"> </text>
+            <text id="metric4Percent" x="51%+145" y="66%+30"> </text>
+          </g>
+          <g class = "calBar">
+            <image href="images/calories_36px.png" x="24%" y="55%+60" width = "28" height = "23" fill = "white"/>
+            <rect width="150" height = "25" x="50%" y="55%+60" id = "metric5_bg" opacity="0.3"></rect>
+            <rect width="150" height = "25" x="50%" y="55%+60" id = "metric5"></rect>
+            <text id="metric5Data" x="51%" y="66%+60"> </text>
+            <text id="metric5Percent" x="51%+145" y="66%+60"> </text>
+          </g>
+          <g class = "distBar">
+            <image href="images/distance_36px.png" x="24%" y="55%+90" width = "28" height = "23" fill="white"/>
+            <rect width="150" height = "25" x="50%" y="55%+90" id = "metric6_bg" opacity="0.3"></rect>
+            <rect width="90"  height = "25" x="50%" y="55%+90" id = "metric6"></rect>
+            <text id="metric6Data" x="51%" y="66%+90"> </text>
+            <text id="metric6Percent" x="51%+145" y="66%+90"> </text>
+          </g>
+
+        </svg>
+        <text id = "steps" class="activity-style" /> 
+      </svg>
+    </svg>
+  </svg>
+  <!-- USE KPAY UI CODE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+  <use href="#kpay" />
+</svg>
